@@ -1,0 +1,74 @@
+#integertab {
+	float: right;
+	position: relative;
+}
+#integertab a {
+	text-indent: 120%;
+	white-space: nowrap;
+	overflow: hidden;
+	background-image: url('integer.tab-static.png');
+	background-repeat: no-repeat;
+	display: block;
+	height: 71px;
+	position: relative;
+	width: 74px;
+	z-index: 2;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+	#integertab a {
+		background-image: url('integer.tab-static.png');
+		-webkit-background-size: 147px 37px;
+		background-size: 147px 37px;
+	}
+}
+#integertab:before {
+	background-color: transparent;
+	content: '';
+	display: block;
+	height: 71px;
+	position: absolute;
+	top: 0;
+	width: 74px;
+	z-index: 1;
+}
+html[dir='rtl'] #integertab {
+	float: left;
+}
+/*light*/
+
+#lightintegertab {
+	float: right;
+	position: relative;
+}
+#lightintegertab a {
+	text-indent: 120%;
+	white-space: nowrap;
+	overflow: hidden;
+	background-image: url('light.integer.tab-static.png');
+	background-repeat: no-repeat;
+	display: block;
+	height: 71px;
+	position: relative;
+	width: 74px;
+	z-index: 2;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+	#lightintegertab a {
+		background-image: url('light.integer.tab-static.png');
+		-webkit-background-size: 147px 37px;
+		background-size: 147px 37px;
+	}
+}
+#lightintegertab:before {
+	background-color: transparent;
+	content: '';
+	display: block;
+	height: 71px;
+	position: absolute;
+	top: 0;
+	width: 74px;
+	z-index: 1;
+}
+html[dir='rtl'] #lightintegertab {
+	float: left;
+}
