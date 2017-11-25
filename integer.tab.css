@@ -17,8 +17,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
 	#integertab a {
 		background-image: url('integer.tab-static.png');
-		-webkit-background-size: 147px 37px;
-		background-size: 147px 37px;
+		-webkit-background-size: 74px 71px;
+		background-size: 74px 71px;
 	}
 }
 #integertab:before {
